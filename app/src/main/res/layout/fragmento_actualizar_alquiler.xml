@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="introduzca el dni a buscar"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="dni"
+        android:id="@+id/actualizar_alquiler_buscar_dni"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buscar"
+        android:id="@+id/actualizar_alquiler_boton_buscar"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="dni"
+        android:id="@+id/actualizar_alquiler_modificar_dni"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="titulo"
+        android:id="@+id/actualizar_alquiler_modificar_titulo"
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="fecha alquiler"
+        android:id="@+id/actualizar_alquiler_modificar_fechaAlquiler"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="fecha entrega"
+        android:id="@+id/actualizar_alquiler_modificar_fechaEntrega"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="actualizar"
+        android:id="@+id/actualizar_alquiler_boton_actualizar"
+
+        />
+
+</LinearLayout>

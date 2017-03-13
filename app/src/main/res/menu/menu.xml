@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+    android:title="Clientes">
+        <menu>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/cliente_1"
+
+            android:title="Obtener todos los Clientes"/>
+        <item
+            android:id="@+id/cliente_2"
+
+            android:title="Obtener un Cliente"/>
+
+        <item
+            android:id="@+id/cliente_3"
+
+            android:title="Crear Cliente"/>
+
+        <item
+            android:id="@+id/cliente_4"
+
+            android:title="Actualizar Cliente"/>
+
+        <item
+            android:id="@+id/cliente_5"
+
+            android:title="Borrar Cliente"/>
+        </group>
+    </menu>
+</item>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="Peliculas">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/pelicula_1"
+
+                    android:title="Obtener todas las Peliculas"/>
+                <item
+                    android:id="@+id/pelicula_2"
+
+                    android:title="Obtener una Pelicula"/>
+
+                <item
+                    android:id="@+id/pelicula_3"
+
+                    android:title="Crear Pelicula"/>
+
+                <item
+                    android:id="@+id/pelicula_4"
+
+                    android:title="Actualizar Pelicula"/>
+
+                <item
+                    android:id="@+id/pelicula_5"
+
+                    android:title="Borrar Pelicula"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+
+        android:title="Alquileres">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/alquiler_1"
+
+                    android:title="Obtener todos los Alquileres"/>
+                <item
+                    android:id="@+id/alquiler_2"
+
+                    android:title="Obtener un Alquiler"/>
+
+                <item
+                    android:id="@+id/alquiler_3"
+
+                    android:title="Crear Alquiler"/>
+
+                <item
+                    android:id="@+id/alquiler_4"
+
+                    android:title="Actualizar Alquiler"/>
+
+                <item
+                    android:id="@+id/alquiler_5"
+
+                    android:title="Borrar Alquiler"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+
+        android:title=" Numero de Alquileres">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/numero_alquiler_1"
+
+                    android:title="Obtener alquileres por pelicula"/>
+
+            </group>
+        </menu>
+    </item>
+</menu>
